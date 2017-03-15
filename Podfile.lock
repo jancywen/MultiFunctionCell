@@ -1,0 +1,15 @@
+PODS:
+  - EVReflection (3.5.2)
+  - Masonry (1.0.2)
+
+DEPENDENCIES:
+  - EVReflection
+  - Masonry
+
+SPEC CHECKSUMS:
+  EVReflection: 3a9e1e41661ad7f0f86a4f5e5a6a7ef999c63819
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+
+PODFILE CHECKSUM: 29f876556d2967953feb3775833008b0521653dc
+
+COCOAPODS: 1.1.1

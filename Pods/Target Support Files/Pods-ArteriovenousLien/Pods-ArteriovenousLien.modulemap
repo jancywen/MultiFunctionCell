@@ -1,0 +1,6 @@
+framework module Pods_ArteriovenousLien {
+  umbrella header "Pods-ArteriovenousLien-umbrella.h"
+
+  export *
+  module * { export * }
+}

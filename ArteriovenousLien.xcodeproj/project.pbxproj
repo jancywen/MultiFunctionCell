@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E4017F07915B94585D42901 /* Pods_ArteriovenousLien.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16F4A43056CB59025A9CAEB1 /* Pods_ArteriovenousLien.framework */; };
+		E808A5321E6E839500156CF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E808A5311E6E839500156CF1 /* main.m */; };
+		E808A5351E6E839500156CF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E808A5341E6E839500156CF1 /* AppDelegate.m */; };
+		E808A5381E6E839500156CF1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E808A5371E6E839500156CF1 /* ViewController.m */; };
+		E808A53B1E6E839500156CF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E808A5391E6E839500156CF1 /* Main.storyboard */; };
+		E808A53D1E6E839500156CF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E808A53C1E6E839500156CF1 /* Assets.xcassets */; };
+		E808A5401E6E839500156CF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E808A53E1E6E839500156CF1 /* LaunchScreen.storyboard */; };
+		E808A54A1E6E88AA00156CF1 /* ALTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E808A5491E6E88AA00156CF1 /* ALTableViewController.m */; };
+		E808A5551E6E8A6500156CF1 /* IQDropDownTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = E808A5541E6E8A6500156CF1 /* IQDropDownTextField.m */; };
+		E808A5591E6E8B3200156CF1 /* ArteriovenousLienCellCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E808A5571E6E8B3200156CF1 /* ArteriovenousLienCellCell.m */; };
+		E808A55A1E6E8B3200156CF1 /* ArteriovenousLienCellCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E808A5581E6E8B3200156CF1 /* ArteriovenousLienCellCell.xib */; };
+		E808A5681E6F9AC100156CF1 /* ObjNodeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E808A5671E6F9AC100156CF1 /* ObjNodeInfo.swift */; };
+		E808A5B91E6FFB0100156CF1 /* WidgetIndex.plist in Resources */ = {isa = PBXBuildFile; fileRef = E808A5B81E6FFB0100156CF1 /* WidgetIndex.plist */; };
+		E8794B171E7282B400BB7D0C /* ALTavFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8794B161E7282B400BB7D0C /* ALTavFooterView.m */; };
+		E8794B191E7282C100BB7D0C /* ALTavFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8794B181E7282C100BB7D0C /* ALTavFooterView.xib */; };
+		E8794B1B1E7292CE00BB7D0C /* ObjALInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8794B1A1E7292CE00BB7D0C /* ObjALInfo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16F4A43056CB59025A9CAEB1 /* Pods_ArteriovenousLien.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArteriovenousLien.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB8D75A011C255F4E0F780AB /* Pods-ArteriovenousLien.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArteriovenousLien.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArteriovenousLien/Pods-ArteriovenousLien.release.xcconfig"; sourceTree = "<group>"; };
+		E808A52D1E6E839500156CF1 /* ArteriovenousLien.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArteriovenousLien.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E808A5311E6E839500156CF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E808A5331E6E839500156CF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E808A5341E6E839500156CF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E808A5361E6E839500156CF1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E808A5371E6E839500156CF1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E808A53A1E6E839500156CF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E808A53C1E6E839500156CF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E808A53F1E6E839500156CF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E808A5411E6E839500156CF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E808A5481E6E88AA00156CF1 /* ALTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTableViewController.h; sourceTree = "<group>"; };
+		E808A5491E6E88AA00156CF1 /* ALTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALTableViewController.m; sourceTree = "<group>"; };
+		E808A5531E6E8A6500156CF1 /* IQDropDownTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQDropDownTextField.h; sourceTree = "<group>"; };
+		E808A5541E6E8A6500156CF1 /* IQDropDownTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQDropDownTextField.m; sourceTree = "<group>"; };
+		E808A5561E6E8B3200156CF1 /* ArteriovenousLienCellCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArteriovenousLienCellCell.h; sourceTree = "<group>"; };
+		E808A5571E6E8B3200156CF1 /* ArteriovenousLienCellCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArteriovenousLienCellCell.m; sourceTree = "<group>"; };
+		E808A5581E6E8B3200156CF1 /* ArteriovenousLienCellCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArteriovenousLienCellCell.xib; sourceTree = "<group>"; };
+		E808A5641E6F001C00156CF1 /* ArteriovenousLien-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ArteriovenousLien-Bridging-Header.h"; sourceTree = "<group>"; };
+		E808A5671E6F9AC100156CF1 /* ObjNodeInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjNodeInfo.swift; sourceTree = "<group>"; };
+		E808A5B81E6FFB0100156CF1 /* WidgetIndex.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WidgetIndex.plist; sourceTree = "<group>"; };
+		E8794B151E7282B400BB7D0C /* ALTavFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTavFooterView.h; sourceTree = "<group>"; };
+		E8794B161E7282B400BB7D0C /* ALTavFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALTavFooterView.m; sourceTree = "<group>"; };
+		E8794B181E7282C100BB7D0C /* ALTavFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALTavFooterView.xib; sourceTree = "<group>"; };
+		E8794B1A1E7292CE00BB7D0C /* ObjALInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjALInfo.swift; sourceTree = "<group>"; };
+		F9C32251566F6CEA6380824E /* Pods-ArteriovenousLien.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArteriovenousLien.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArteriovenousLien/Pods-ArteriovenousLien.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E808A52A1E6E839500156CF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E4017F07915B94585D42901 /* Pods_ArteriovenousLien.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4ECEEEB88ED0E2B1491DB5A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16F4A43056CB59025A9CAEB1 /* Pods_ArteriovenousLien.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E22823AB0C22682FA88F6974 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9C32251566F6CEA6380824E /* Pods-ArteriovenousLien.debug.xcconfig */,
+				CB8D75A011C255F4E0F780AB /* Pods-ArteriovenousLien.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E808A5241E6E839500156CF1 = {
+			isa = PBXGroup;
+			children = (
+				E808A52F1E6E839500156CF1 /* ArteriovenousLien */,
+				E808A52E1E6E839500156CF1 /* Products */,
+				E22823AB0C22682FA88F6974 /* Pods */,
+				4ECEEEB88ED0E2B1491DB5A1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E808A52E1E6E839500156CF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E808A52D1E6E839500156CF1 /* ArteriovenousLien.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E808A52F1E6E839500156CF1 /* ArteriovenousLien */ = {
+			isa = PBXGroup;
+			children = (
+				E808A5471E6E888F00156CF1 /* ArteriovenousLien */,
+				E808A5331E6E839500156CF1 /* AppDelegate.h */,
+				E808A5341E6E839500156CF1 /* AppDelegate.m */,
+				E808A5361E6E839500156CF1 /* ViewController.h */,
+				E808A5371E6E839500156CF1 /* ViewController.m */,
+				E808A5391E6E839500156CF1 /* Main.storyboard */,
+				E808A53C1E6E839500156CF1 /* Assets.xcassets */,
+				E808A53E1E6E839500156CF1 /* LaunchScreen.storyboard */,
+				E808A5411E6E839500156CF1 /* Info.plist */,
+				E808A5301E6E839500156CF1 /* Supporting Files */,
+			);
+			path = ArteriovenousLien;
+			sourceTree = "<group>";
+		};
+		E808A5301E6E839500156CF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E808A5311E6E839500156CF1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E808A5471E6E888F00156CF1 /* ArteriovenousLien */ = {
+			isa = PBXGroup;
+			children = (
+				E8794B141E72828E00BB7D0C /* Subviews */,
+				E808A5B71E6FFA9900156CF1 /* Plist */,
+				E808A5601E6EFE1900156CF1 /* ObjModel */,
+				E808A5521E6E8A6500156CF1 /* IQDropDownTextField */,
+				E808A54B1E6E88C600156CF1 /* Cell */,
+				E808A5481E6E88AA00156CF1 /* ALTableViewController.h */,
+				E808A5491E6E88AA00156CF1 /* ALTableViewController.m */,
+				E808A5641E6F001C00156CF1 /* ArteriovenousLien-Bridging-Header.h */,
+			);
+			path = ArteriovenousLien;
+			sourceTree = "<group>";
+		};
+		E808A54B1E6E88C600156CF1 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E808A5561E6E8B3200156CF1 /* ArteriovenousLienCellCell.h */,
+				E808A5571E6E8B3200156CF1 /* ArteriovenousLienCellCell.m */,
+				E808A5581E6E8B3200156CF1 /* ArteriovenousLienCellCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		E808A5521E6E8A6500156CF1 /* IQDropDownTextField */ = {
+			isa = PBXGroup;
+			children = (
+				E808A5531E6E8A6500156CF1 /* IQDropDownTextField.h */,
+				E808A5541E6E8A6500156CF1 /* IQDropDownTextField.m */,
+			);
+			path = IQDropDownTextField;
+			sourceTree = "<group>";
+		};
+		E808A5601E6EFE1900156CF1 /* ObjModel */ = {
+			isa = PBXGroup;
+			children = (
+				E808A5671E6F9AC100156CF1 /* ObjNodeInfo.swift */,
+				E8794B1A1E7292CE00BB7D0C /* ObjALInfo.swift */,
+			);
+			path = ObjModel;
+			sourceTree = "<group>";
+		};
+		E808A5B71E6FFA9900156CF1 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				E808A5B81E6FFB0100156CF1 /* WidgetIndex.plist */,
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+		E8794B141E72828E00BB7D0C /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				E8794B151E7282B400BB7D0C /* ALTavFooterView.h */,
+				E8794B161E7282B400BB7D0C /* ALTavFooterView.m */,
+				E8794B181E7282C100BB7D0C /* ALTavFooterView.xib */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E808A52C1E6E839500156CF1 /* ArteriovenousLien */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E808A5441E6E839500156CF1 /* Build configuration list for PBXNativeTarget "ArteriovenousLien" */;
+			buildPhases = (
+				925391B2458958DB0ADCAEC7 /* [CP] Check Pods Manifest.lock */,
+				E808A5291E6E839500156CF1 /* Sources */,
+				E808A52A1E6E839500156CF1 /* Frameworks */,
+				E808A52B1E6E839500156CF1 /* Resources */,
+				B391779316C8A4C2F4B0E638 /* [CP] Embed Pods Frameworks */,
+				BA67AC4A3DCA2F2EC16A0588 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArteriovenousLien;
+			productName = ArteriovenousLien;
+			productReference = E808A52D1E6E839500156CF1 /* ArteriovenousLien.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E808A5251E6E839500156CF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Roo;
+				TargetAttributes = {
+					E808A52C1E6E839500156CF1 = {
+						CreatedOnToolsVersion = 8.2;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E808A5281E6E839500156CF1 /* Build configuration list for PBXProject "ArteriovenousLien" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E808A5241E6E839500156CF1;
+			productRefGroup = E808A52E1E6E839500156CF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E808A52C1E6E839500156CF1 /* ArteriovenousLien */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E808A52B1E6E839500156CF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E808A55A1E6E8B3200156CF1 /* ArteriovenousLienCellCell.xib in Resources */,
+				E808A5401E6E839500156CF1 /* LaunchScreen.storyboard in Resources */,
+				E808A53D1E6E839500156CF1 /* Assets.xcassets in Resources */,
+				E808A53B1E6E839500156CF1 /* Main.storyboard in Resources */,
+				E8794B191E7282C100BB7D0C /* ALTavFooterView.xib in Resources */,
+				E808A5B91E6FFB0100156CF1 /* WidgetIndex.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		925391B2458958DB0ADCAEC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B391779316C8A4C2F4B0E638 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArteriovenousLien/Pods-ArteriovenousLien-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA67AC4A3DCA2F2EC16A0588 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArteriovenousLien/Pods-ArteriovenousLien-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E808A5291E6E839500156CF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E808A5551E6E8A6500156CF1 /* IQDropDownTextField.m in Sources */,
+				E8794B1B1E7292CE00BB7D0C /* ObjALInfo.swift in Sources */,
+				E808A5681E6F9AC100156CF1 /* ObjNodeInfo.swift in Sources */,
+				E808A5381E6E839500156CF1 /* ViewController.m in Sources */,
+				E808A5591E6E8B3200156CF1 /* ArteriovenousLienCellCell.m in Sources */,
+				E808A5351E6E839500156CF1 /* AppDelegate.m in Sources */,
+				E808A54A1E6E88AA00156CF1 /* ALTableViewController.m in Sources */,
+				E8794B171E7282B400BB7D0C /* ALTavFooterView.m in Sources */,
+				E808A5321E6E839500156CF1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E808A5391E6E839500156CF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E808A53A1E6E839500156CF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E808A53E1E6E839500156CF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E808A53F1E6E839500156CF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E808A5421E6E839500156CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E808A5431E6E839500156CF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E808A5451E6E839500156CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9C32251566F6CEA6380824E /* Pods-ArteriovenousLien.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = ArteriovenousLien/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ArteriovenousLien;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ArteriovenousLien/ArteriovenousLien/ArteriovenousLien-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E808A5461E6E839500156CF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB8D75A011C255F4E0F780AB /* Pods-ArteriovenousLien.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = ArteriovenousLien/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ArteriovenousLien;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ArteriovenousLien/ArteriovenousLien/ArteriovenousLien-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E808A5281E6E839500156CF1 /* Build configuration list for PBXProject "ArteriovenousLien" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E808A5421E6E839500156CF1 /* Debug */,
+				E808A5431E6E839500156CF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E808A5441E6E839500156CF1 /* Build configuration list for PBXNativeTarget "ArteriovenousLien" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E808A5451E6E839500156CF1 /* Debug */,
+				E808A5461E6E839500156CF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E808A5251E6E839500156CF1 /* Project object */;
+}
